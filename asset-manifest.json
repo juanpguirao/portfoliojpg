@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/juanpguirao/PortfolioJPG.git/static/css/main.042cc223.css",
+    "main.js": "/juanpguirao/PortfolioJPG.git/static/js/main.e8d92dad.js",
+    "static/js/453.176e9687.chunk.js": "/juanpguirao/PortfolioJPG.git/static/js/453.176e9687.chunk.js",
+    "index.html": "/juanpguirao/PortfolioJPG.git/index.html",
+    "main.042cc223.css.map": "/juanpguirao/PortfolioJPG.git/static/css/main.042cc223.css.map",
+    "main.e8d92dad.js.map": "/juanpguirao/PortfolioJPG.git/static/js/main.e8d92dad.js.map",
+    "453.176e9687.chunk.js.map": "/juanpguirao/PortfolioJPG.git/static/js/453.176e9687.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.042cc223.css",
+    "static/js/main.e8d92dad.js"
+  ]
+}

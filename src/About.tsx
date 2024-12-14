@@ -9,7 +9,7 @@ const About = () => {
   return (
     <div className="min-h-screen bg-slate-50">
       {/* Hero Section */}
-      <header className="bg-gradient-to-r from-blue-600 to-blue-800 text-white">
+      <header className="bg-gradient-to-r from-blue-600 to-blue-800 text-white ">
         <div className="container mx-auto px-6 py-20">
           <div className=" flex flex-col w-full md:flex-row items-center justify-between">
             <div>
@@ -67,7 +67,7 @@ const About = () => {
       </section>
 
       {/* Experience Section */}
-      <section className="py-16 bg-white">
+      <section id='experience' className="py-16 bg-white">
         <div className="container mx-auto px-6">
           <h2 className="text-3xl font-bold mb-8 text-gray-800">Experiencia Profesional</h2>
           <div className="space-y-8">
@@ -94,7 +94,7 @@ const About = () => {
       </section>
 
       {/* Education Section */}
-      <section className="py-16 bg-gray-50">
+      <section  className="py-16 bg-gray-50">
         <div className="container mx-auto px-6">
           <h2 className="text-3xl font-bold mb-8 text-gray-800">Educación</h2>
           <div className="space-y-6">
@@ -118,7 +118,7 @@ const About = () => {
           </div>
         </div>
       </section>
-
+  
     </div>
   );
 };

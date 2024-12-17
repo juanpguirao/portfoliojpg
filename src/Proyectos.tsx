@@ -1,7 +1,9 @@
   // components/Portfolio.tsx
   import React, { useState } from 'react';
   import { Github, Mail, MapPin, ExternalLink, Code, Database, Globe, Book } from 'lucide-react';
-
+  import naruto from './img/naruto.png'
+  import ventarron from './img/ventarron.png'
+  import buzz from './img/buzz.png'
   // types.ts
 type Skill = {
     name: string;
@@ -70,16 +72,16 @@ type Skill = {
         id: '1',
         title: 'REST API',
         description: 'Desarrollo de una aplicación web interactiva utilizando un front-end que consume recursos de la API de Naruto. Implementación de una API REST para gestionar datos y ofrecer una experiencia de usuario dinámica.',
-        image: '/api/placeholder/400/300',
+        image: naruto,
         tags: ['JavaScript', 'REST API', 'Typescript'],
         url: 'https://juanpguirao.github.io/naruto/',
-        category: 'Frontend'
+        category: 'React',
       },
       {
         id: '2',
         title: 'Ventarron Wine',
         description: 'Sitio web para bodega con catálogo de productos, blog y sistema de reservas para degustaciones.',
-        image: '/api/placeholder/400/300',
+        image: ventarron,
         tags: ['WordPress', 'SEO', ''],
         url: 'https://ventarronwine.com',
         category: 'WordPress'
@@ -88,10 +90,10 @@ type Skill = {
         id: '3',
         title: 'Buzz Recovery',
         description: 'Plataforma de servicios médicos con sistema de citas y gestión de pacientes.',
-        image: '/api/placeholder/400/300',
+        image: buzz,
         tags: ['Wordpress', 'Elementor'],
         url: 'https://buzzrecovery.com',
-        category: 'Wordpress'
+        category: 'WordPress'
       },
       // ... más proyectos
     ];

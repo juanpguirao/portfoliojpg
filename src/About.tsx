@@ -11,8 +11,8 @@ const About = () => {
       {/* Hero Section */}
       <header className="bg-gradient-to-r from-blue-600 to-blue-800 text-white ">
         <div className="container mx-auto px-6 py-20">
-          <div className=" flex flex-col w-full md:flex-row items-center justify-between">
-            <div>
+          <div className="flex flex-col w-full md:flex-row items-center justify-center md:space-x-20">
+            <div className='flex flex-col items-center '>
               <h1 className="text-4xl md:text-5xl font-bold mb-4">Juan Guirao</h1>
               <h2 className="text-2xl md:text-3xl text-blue-200 mb-6">Web Developer</h2>
               <div className="flex flex-col gap-2">
@@ -28,7 +28,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className=" mt-8 md:mt-0">
+            <div className="flex items-center border border-black justify-center mt-8 md:mt-0">
               <div className=' h-[12rem] w-[12rem] rounded-full overflow-hidden border border-sky-300 border-opacity-20 shadow-md shadow-slate-400'>
                 <img
                   src={img} // Reemplaza con tu logo o imagen
@@ -56,7 +56,7 @@ const About = () => {
       {/* Skills Section */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-6">
-          <h2 className="text-3xl font-bold mb-8 text-gray-800">Tecnologías</h2>
+          <h2 className="text-3xl font-bold mb-8 text-gray-800">Aptitudes</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             <SkillCard icon={<Code />} title="Frontend" skills={['JavaScript', 'TypeScript', 'HTML 5', 'Tailwind']} />
             <SkillCard icon={<Database />} title="Backend" skills={['NodeJS', 'NextJS']} />
@@ -131,7 +131,7 @@ interface skillProps {
 const SkillCard = ({ icon, title, skills }: skillProps) => {
   return (
     <div className="bg-white p-6 rounded-lg shadow-md">
-      <div className="flex items-center gap-2 mb-4">
+      <div className="flex flex-row items-center justify-center gap-2 mb-4 border-b-2">
         {icon}
         <h3 className="font-bold text-lg">{title}</h3>
       </div>

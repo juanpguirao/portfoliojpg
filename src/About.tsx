@@ -28,7 +28,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className="flex items-center border border-black justify-center mt-8 md:mt-0">
+            <div className="flex items-center justify-center mt-8 md:mt-0">
               <div className=' h-[12rem] w-[12rem] rounded-full overflow-hidden border border-sky-300 border-opacity-20 shadow-md shadow-slate-400'>
                 <img
                   src={img} // Reemplaza con tu logo o imagen
@@ -144,7 +144,7 @@ const SkillCard = ({ icon, title, skills }: skillProps) => {
   );
 };
 interface experienceCard {
-  title: string;
+      title: string;
   company: string;
   period: string;
   description: string;

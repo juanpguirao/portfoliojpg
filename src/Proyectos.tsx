@@ -4,6 +4,8 @@
   import naruto from './img/naruto.png'
   import ventarron from './img/ventarron.png'
   import buzz from './img/buzz.png'
+  import m2 from './img/m2.png'
+  
   // types.ts
 type Skill = {
     name: string;
@@ -80,22 +82,30 @@ type Skill = {
       {
         id: '2',
         title: 'Ventarron Wine',
-        description: 'Sitio web para bodega con catálogo de productos, blog y sistema de reservas para degustaciones.',
+        description: 'Diseño y desarrollo de un sitio web para una bodega mendocina, destacando la esencia y tradición de sus vinos. El sitio fue creado utilizando WordPress y el editor visual Visual Composer, logrando un diseño atractivo, funcional y completamente adaptado a las necesidades de la marca.',
         image: ventarron,
-        tags: ['WordPress', 'SEO', ''],
+        tags: ['WordPress', 'SEO', 'Diseño Web', 'Photoshop', 'Figma'],
         url: 'https://ventarronwine.com',
         category: 'WordPress'
       },
       {
         id: '3',
         title: 'Buzz Recovery',
-        description: 'Plataforma de servicios médicos con sistema de citas y gestión de pacientes.',
+        description: 'Desarrollo de una tienda en línea funcional y personalizada para un cliente, utilizando WordPress y Elementor para lograr un diseño moderno y profesional adaptado a sus necesidades.',
         image: buzz,
-        tags: ['Wordpress', 'Elementor'],
+        tags: ['Wordpress', 'Elementor', 'Ecommerce'],
         url: 'https://buzzrecovery.com',
         category: 'WordPress'
       },
-      // ... más proyectos
+      {
+        id: '4',
+        title: 'M2communication',
+        description: 'Desarrollo de un sitio web profesional para M2 Communications, una agencia galardonada, certificada como minoritaria y liderada por mujeres. El proyecto se centró en crear una plataforma que refleje la experiencia de la agencia en campañas digitales dirigidas y estrategias personalizadas para diversas industrias.',
+        image: m2,
+        tags: ['Wordpress', 'Elementor', 'SEO', 'Diseño Web'],
+        url: 'https://m2communications.net/',
+        category: 'WordPress'
+      },
     ];
   
     const categories = ['Todos', 'WordPress', 'React', 'Frontend'];
@@ -146,7 +156,7 @@ type Skill = {
             ? 'bg-blue-500 text-white border-blue-500' 
             : 'border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white'
           }`}
-      >
+          >
         {category}
       </button>
     );

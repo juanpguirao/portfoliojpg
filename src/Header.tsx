@@ -69,7 +69,7 @@ const Header = () => {
       {isVisible && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-8 right-8 bg-blue-600 text-white p-4 rounded-full shadow-lg hover:bg-blue-700 focus:outline-none focus:ring focus:ring-blue-300"
+          className="fixed bottom-12 right-4 bg-blue-600 text-white text-4xl p-2 rounded-full shadow-lg hover:bg-blue-700 focus:outline-none focus:ring focus:ring-blue-300"
         >
           ↑
         </button>
